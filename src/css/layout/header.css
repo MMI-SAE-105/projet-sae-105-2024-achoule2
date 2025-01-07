@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #000;
+  border-bottom: 1px solid #333;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.language-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.lang-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.lang-link.active {
+  color: #0047AB;
+}
+
+.lang-link:hover {
+  color: #0047AB;
+}
+
+.lang-separator {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.menu-toggle {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+}

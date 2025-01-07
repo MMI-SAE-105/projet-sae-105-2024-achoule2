@@ -1,0 +1,32 @@
+/*   
+Le fichier style.css aggrège l'ensemble du code css, 
+découpé en différents fichiers correspondant à aux composants de l'interface
+La règle @import permet d'importer ici tous les fichiers css utilisés.
+Soyez attentifs à l'ordre d'import :
+  1. les polices via Google Font
+  2. Les libraries (Vendors)
+  3. Les variables (Utils)
+  4. Les règles générales (Base)
+  5. Les règles de composition (Layout)
+  6. Les composant d'interface (Components)
+*/
+
+@import url("https://use.typekit.net/ucd0xds.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Vendors */
+@import "vendors/normalize.css";
+
+/* Utils */
+@import "utils/variables.css";
+
+/* Base */
+@import "base/main.css";
+@import "base/media.css";
+
+/* Layout */
+@import "layout/footer.css";
+@import "layout/header.css";
+@import "layout/menu.css";
+
+/* Components */
