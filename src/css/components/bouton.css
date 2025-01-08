@@ -1,0 +1,109 @@
+.discover-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #0066CC;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-family: 'Jost', sans-serif;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    margin: 1rem 0;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.cta-button {
+    text-align: center;
+}
+
+.cta {
+    text-align: center;
+    margin: 30px 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: auto;
+    max-width: 90%;
+}
+
+.btn-livre {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    margin: 1rem 0;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.music-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    margin: 1rem 0;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.music-button:hover {
+    background-color: #003380;
+}
+
+.submit-btn {
+    background-color: #0047AB;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #002d6b;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #0066cc;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #004999;
+}

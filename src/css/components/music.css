@@ -1,0 +1,41 @@
+.music-article {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.music-article h1 {
+    color: #0047AB;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+
+.music-image {
+    width: 100%;
+    max-width: 500px;
+    margin: 1rem 0;
+}
+
+.music-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
+@media (max-width: 768px) {
+    .music-article {
+        padding: 1rem;
+    }
+
+    .music-article h1 {
+        font-size: 1.5rem;
+    }
+
+    .music-button {
+        width: 100%;
+    }
+}

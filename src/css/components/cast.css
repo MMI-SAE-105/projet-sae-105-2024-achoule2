@@ -1,0 +1,20 @@
+.cast-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.cast-member {
+    text-align: center;
+}
+
+.cast-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cast-member p {
+    margin-top: 0.5rem;
+}

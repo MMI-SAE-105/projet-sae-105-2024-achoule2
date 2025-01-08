@@ -1,0 +1,166 @@
+.movie-poster {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.movie-poster img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.poster-caption {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+
+
+.synopsis {
+    margin: 2rem 0;
+}
+
+.director {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.category {
+    color: #666;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.quote-box {
+    margin-top: 2rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    background: #000;
+    color: white;
+    padding: 1rem;
+}
+
+.profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.quote {
+    flex: 1;
+}
+
+.quote-text {
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.quote-author {
+    font-size: 0.9rem;
+}
+
+.nav-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.nav-dot.active {
+    background-color: #003366;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 1.5rem;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.language-selector {
+    margin-right: 20px;
+}
+
+.lang-link {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.lang-link.active {
+    font-weight: bold;
+}
+
+.lang-separator {
+    color: white;
+    margin: 0 5px;
+}
+
+.director {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+
+.media-hero {
+    text-align: center;
+    padding: 2rem 0;
+    background: url('/assets/img/hero-bg.jpg') center/cover no-repeat;
+}
+
+.media-hero h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #0047AB;
+    font-weight: bold;
+}
+
+.media-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.media-item {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.media-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.media-item iframe,
+.media-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}

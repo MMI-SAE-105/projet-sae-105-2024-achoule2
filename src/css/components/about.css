@@ -1,0 +1,44 @@
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+    gap: 2rem;
+    font-family: 'Jost', sans-serif;
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about-content h1 {
+    color: #003366;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 40px;
+}
+
+.about-content p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+    }
+    
+    .about-image {
+        margin-top: 2rem;
+    }
+}

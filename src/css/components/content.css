@@ -1,0 +1,23 @@
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.detailed-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.music-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.music-content p {
+    line-height: 1.6;
+    color: #ffffff;
+}
+
