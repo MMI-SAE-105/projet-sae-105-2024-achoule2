@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,39 +28,50 @@
         </div>
         <nav class="mobile-menu">
             <ul class="menu-items" id="menu-items">
-                <li><a href="articledrone.html">LE DRONE</a></li>
+                <li><a href="articledrone.html">THE DRONE</a></li>
                 <li><a href="articlefilm.html">OBLIVION</a></li>
                 <li><a href="articleréal.html">JOSEPH KOSINSKI</a></li>
                 <li><a href="articlelivre.html">DRONE WARFARE</a></li>
-                <li><a href="articlemusique.html">THE GRID DE DAFT PUNK</a></li>
-                <li><a href="frisechrono.html">GALERIE ET FRISE</a></li>
+                <li><a href="articlemusique.html">THE GRID BY DAFT PUNK</a></li>
+                <li><a href="frisechrono.html">GALLERY AND TIMELINE</a></li>
                 <li><a href="média.html">MEDIA</a></li>
                 <li><a href="formulairedecontact.html">CONTACT</a></li>
-                <li><a href="apropos.html">A PROPOS</a></li>
-                <li><a href="glossaire.html">GLOSSAIRE</a></li>
-                <li><a href="autreprojet.html">PROJET</a></li>
+                <li><a href="apropos.html">ABOUT</a></li>
+                <li><a href="glossaire.html">GLOSSARY</a></li>
+                <li><a href="autreprojet.html">PROJECT</a></li>
             </ul>
         </nav>
     
         <script src="/src/script.js"></script>
     </header>
 
-    <main class="about-section">
-            <div class="about-content">
-                <h1>À PROPOS DE MOI</h1>
-                <p>Je suis un étudiants en Métier du Multimédia et de l'Internet, j'ai réalisés ce site Internet dans le cadre d'un projet pédagogique.</p>
-                <p>Je suis Adrien Choulet :</p>
-                <p>Etudiant 1er année MMI Montbéliard</p>
-                <div class="quote-box">
-                    <div class="profile">
-                        <img src="/assets/img/adrien.png" alt="Photo de profil">
-                        <div class="quote">
-                            <p class="quote-text">« Tout est possible à qui rêve, ose, travaille et n'abandonne jamais. »</p>
-                            <p class="quote-author">Xavier Dolan</p>
-                        </div>
-                    </div>
+    <main>
+        <h1>CONTACT</h1>
+        <div class="contact-container">
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="nom">NAME</label>
+                    <input type="text" id="nom" name="nom" required>
                 </div>
-            </div>
+    
+                <div class="form-group">
+                    <label for="prenom">FIRST NAME</label>
+                    <input type="text" id="prenom" name="prenom" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="message">MESSAGE</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+    
+                <button type="submit" class="submit-btn">SEND</button>
+            </form>
+        </div>
     </main>
 
     <footer>
@@ -70,9 +81,9 @@
                 <nav class="footer-menu">
                     <ul>
                         <li><a href="formulairedecontact.html">CONTACT</a></li>
-                        <li><a href="apropos.html">À PROPOS</a></li>
-                        <li><a href="glossaire.html">GLOSSAIRE</a></li>
-                        <li><a href="autreprojet.html">PROJETS</a></li>
+                        <li><a href="apropos.html">ABOUT</a></li>
+                        <li><a href="glossaire.html">GLOSSARY</a></li>
+                        <li><a href="autreprojet.html">PROJECTS</a></li>
                     </ul>
                 </nav>
             </div>
@@ -80,7 +91,7 @@
             <div class="footer-section contact">
                 <h3>CONTACT</h3>
                 <address>
-                    <p>4 place tharrardin</p>
+                    <p>4 Place Tharrardin</p>
                     <p>25200 Montbéliard</p>
                     <p>03 81 99 47 34</p>
                     <a href="mailto:but-mmi-montbeliard@univ-fcomte.fr">but-mmi-montbeliard@univ-fcomte.fr</a>
@@ -88,7 +99,7 @@
             </div>
     
             <div class="footer-section social">
-                <h3>NOUS SUIVRE</h3>
+                <h3>FOLLOW US</h3>
                 <div class="social-links">
                     <img src="/assets/img/socialIcons.png" alt="Drone Explorer" class="footer-logo">
                 </div>
@@ -99,6 +110,5 @@
             </div>
         </div>
     </footer>
-    
 </body>
 </html>
