@@ -89,15 +89,15 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Gestion du changement de langue
-    const langLinks = document.querySelectorAll('.lang-link');
-    langLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            langLinks.forEach(l => l.classList.remove('active'));
-            this.classList.add('active');
-            // Ici, vous pouvez ajouter la logique pour changer la langue du site
-        });
-    });
+    // const langLinks = document.querySelectorAll('.lang-link');
+    // langLinks.forEach(link => {
+    //     link.addEventListener('click', function(e) {
+    //         e.preventDefault();
+    //         langLinks.forEach(l => l.classList.remove('active'));
+    //         this.classList.add('active');
+    //         // Ici, vous pouvez ajouter la logique pour changer la langue du site
+    //     });
+    // });
 });
 
 
