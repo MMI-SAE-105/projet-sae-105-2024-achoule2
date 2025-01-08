@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Fonction pour mettre à jour le carousel
     function updateCarousel(index) {
-        carouselContainer.style.transform = `translateX(-${index * 100}%)`;
+        carouselContainer.style.transform = `translateX(-${index * 103}%)`;
         
         // Mise à jour des points de navigation
         dots.forEach(dot => dot.classList.remove('active'));
@@ -99,3 +99,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+
+
