@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM :CHOULET
+- PRÉNOM :ADRIEN
+- GROUPE : A2
+- URL du site : http://dronexplorer.adrienchoulet.fr/fr/
+- URL FIGMA : https://www.figma.com/design/yL1ggyGUP363agEr6JHPF6/Projet_S1_Adrien_Choulet?node-id=144-950&t=FtjixfER3iW3JJ23-1
